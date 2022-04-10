@@ -65,6 +65,10 @@ ul{
 .header-container{
     padding-top: 24px;
     padding-bottom: 25px;
+    outline: 2px solid tomato;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header-logo{
     font-family: 'Raleway';
@@ -247,6 +251,10 @@ margin-bottom: 10px;
 
 .footer-container{
     padding: 60px 0px;
+    outline: 2px solid tomato;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer-logo{
