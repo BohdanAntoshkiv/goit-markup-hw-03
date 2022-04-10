@@ -182,10 +182,12 @@ color: var(--accent-color);
     text-transform: uppercase ;
 
     margin-bottom: 10px;
+    min-width: 270px;
 }
 
 .features-text{
     line-height: 1.7;
+    width: 270px;
 
     color: var(--second-text-color);
 }
