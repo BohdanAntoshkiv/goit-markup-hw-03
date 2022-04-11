@@ -332,6 +332,12 @@ margin-bottom: 10px;
     background-color: var(--accent-color);
 }
 
+.project-card{
+    width: ;
+}
+
+
+
 .project-list-text{
     line-height: 1.88;
     color: var(--second-text-color);
