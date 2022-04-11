@@ -38,6 +38,10 @@ ul{
     margin: 0;
 }
 
+img{
+    display: block;
+}
+
 .container{
     outline: 2px solid tomato;
     width: 1200px;
@@ -145,7 +149,7 @@ color: var(--accent-color);
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     
 
 }
@@ -227,8 +231,8 @@ color: var(--accent-color);
 }
 
 .team-list-item{
-    background-color: var(--background-team-list)
-}
+    background-color: var(--background-team-list);
+    }
 
 .team-image{
     margin-bottom: 30px;
@@ -294,6 +298,14 @@ margin-bottom: 10px;
     text-decoration: none;
     font-style: normal;
     color: var(--footer-addres-white);
+}
+
+.footer-list-adress{
+    margin-bottom: 9px;
+}
+
+.footer-list-mail{
+    margin-bottom: 9px;
 }
 
 .footer-mail, .footer-phone{
