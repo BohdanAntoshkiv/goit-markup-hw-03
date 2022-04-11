@@ -18,19 +18,14 @@
 
 }
 
-.container{
-    outline: 2px solid tomato;
-    width: 1200px;
-    padding: 94px 0;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: var(--main-text-color);
     background: var(--background-page);
+
   }
 
 h1, h2, h3, h4{
@@ -41,6 +36,15 @@ p{
 }
 ul{
     margin: 0;
+}
+
+.container{
+    outline: 2px solid tomato;
+    width: 1200px;
+    padding: 94px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .list{
@@ -69,6 +73,7 @@ ul{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 .header-logo{
     font-family: 'Raleway';
@@ -257,6 +262,7 @@ margin-bottom: 10px;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 
 .footer-logo{
