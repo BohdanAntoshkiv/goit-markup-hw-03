@@ -66,19 +66,25 @@ img{
     font-family: 'Roboto';
 }
 
-.header{
-    border-bottom: 1px solid #ECECEC;
-}
+
 
 .header-container{
-    padding-top: 24px;
-    padding-bottom: 25px;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    border-bottom: 1px solid #ECECEC;
+
+    display: flex;
+    align-items: center;
 }
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
 .header-logo{
     font-family: 'Raleway';
     font-style: normal;
@@ -86,6 +92,10 @@ img{
     font-size: 26px;
     line-height: 1.19;
     color: inherit;
+    
+    margin-right: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
 }
 
@@ -107,6 +117,8 @@ img{
 
 
 .header-link-contact{
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -115,6 +127,33 @@ img{
 
 .header-nav-link .header-link.active{
 color: var(--accent-color);
+}
+
+.header-nav-link{
+    display: flex;
+
+    
+}
+
+
+.header-nav-link .link-nav+.link-nav{
+    margin-left: 50px;
+}
+
+.header-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-contacts{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.contact-item+.contact-item{
+    margin-left: 50px;
 }
     
 .header-link:hover,
@@ -128,7 +167,7 @@ color: var(--accent-color);
 
 
 
-/* ---------------------БАННЕР------------------------- */
+/* ---------------------HERO------------------------- */
 
 .hero{
     background-color: var(--background-hero);
@@ -146,10 +185,10 @@ color: var(--accent-color);
 
     width: 696px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    
     
 
 }
@@ -185,6 +224,14 @@ color: var(--accent-color);
     margin-bottom: 94px;
 }
 
+.features-list{
+    display: flex;
+}
+
+.features-list .features-list-item + .features-list-item{
+    margin-left: 30px;
+}
+
 .features-list-item-header{
     font-weight: 700;
     line-height: 1.14;
@@ -202,7 +249,7 @@ color: var(--accent-color);
 }
 
 /* Чим ми займаємося */
-
+/* ---------------------SERVISES------------------------- */
 
 .servises-header{
 
@@ -212,6 +259,15 @@ color: var(--accent-color);
     text-align: center;
 
     margin-bottom: 50px;
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servises-list .servises-list-item + .servises-list-item{
+    margin-left: 30px;
 }
 
 /* Команда */
@@ -229,10 +285,21 @@ color: var(--accent-color);
     margin-bottom: 50px;
     
 }
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .team-list-item{
     background-color: var(--background-team-list);
-    }
+    width: 270;
+    border-radius: 0px 0px 4px 4px;
+    margin-right: 30px;
+}
+
+.team-list-item:nth-child(4n){
+    margin-right: 0;
+}
 
 .team-image{
     margin-bottom: 30px;
@@ -251,6 +318,7 @@ margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    padding-bottom: 30px;
     color: var(--second-text-color);
 }
 
