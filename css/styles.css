@@ -43,7 +43,7 @@ img{
 }
 
 .container{
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     width: 1200px;
     padding: 94px 0;
     padding-left: 15px;
@@ -330,7 +330,7 @@ margin-bottom: 10px;
 
 .footer-container{
     padding: 60px 0px;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
