@@ -25,8 +25,7 @@ body{
     font-size: 14px;
     color: var(--main-text-color);
     background: var(--background-page);
-
-  }
+}
 
 h1, h2, h3, h4{
     margin: 0;
@@ -43,7 +42,6 @@ img{
 }
 
 .container{
-    /* outline: 2px solid tomato; */
     width: 1200px;
     padding: 94px 0;
     padding-left: 15px;
@@ -69,7 +67,6 @@ img{
 
 
 .header-container{
-    /* outline: 2px solid tomato; */
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -331,7 +328,6 @@ margin-bottom: 10px;
 
 .footer-container{
     padding: 60px 0px;
-    /* outline: 2px solid tomato; */
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -392,7 +388,21 @@ margin-bottom: 10px;
     color: var(--accent-color);
     }
 
-/* Портфоліо */
+/* ---------------------FOOTER------------------------- */
+
+.portfolio-filter{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-filter-item{
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.portfolio-filter-item:last-child{
+    margin-right: 0;
+}
 
 .portfolio-filter-btn{
     font-weight: 500;
@@ -407,6 +417,7 @@ margin-bottom: 10px;
     
     cursor: pointer;
 }
+
 
 .portfolio-filter .portfolio-filter-btn.active{
     background-color: var(--hover-color-btn);
