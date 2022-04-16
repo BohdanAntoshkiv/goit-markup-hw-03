@@ -101,7 +101,6 @@ img {
     line-height: 1.19;
     color: inherit;
 
-    margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -120,6 +119,10 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-link-contact {
@@ -138,16 +141,11 @@ img {
 
 .header-nav-link {
     display: flex;
+    margin-left: 93px;
 }
 
 .header-nav-link .link-nav + .link-nav {
     margin-left: 50px;
-}
-
-.header-link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .header-contacts {
@@ -465,6 +463,7 @@ img {
 .project-item-text {
     padding: 20px 24px;
     border: 1px solid #eeeeee;
+    border-top: 0;
 }
 
 .project-list-header {
